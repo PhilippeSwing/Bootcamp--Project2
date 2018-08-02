@@ -1,0 +1,7 @@
+$colourPrim: rgb(51, 51, 51);
+
+@mixin footer($backgroundColor) {
+    background-color: $backgroundColor;
+    color: white;
+}
+

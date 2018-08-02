@@ -1,0 +1,21 @@
+// SETUP
+@import "partials/setup";
+// ========================
+// GENERAL STYLES AND TYPOGRAPHY
+@import "partials/general";
+// GENERAL STYLES AND TYPOGRAPHY ENDS
+// ========================
+@import "partials/utils";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/responsive";
+
+header {
+    background-color: $colourPrim;
+    height: 100px;
+    width: 100px;
+}
+
+footer {
+    @include footer(blue);
+}

@@ -1,21 +1,33 @@
+// ========================
 // SETUP
 @import "partials/setup";
+// SETUP ENDS
 // ========================
-// GENERAL STYLES AND TYPOGRAPHY
-@import "partials/general";
-// GENERAL STYLES AND TYPOGRAPHY ENDS
 // ========================
+// UTILITIES
 @import "partials/utils";
+// UTILITIES ENDS
+// ========================
+// ========================
+// GENERAL STYLES
+@import "partials/general";
+// GENERAL STYLES ENDS
+// ========================
+// ========================
+// TYPOGRAPHY
+@import "partials/typography";
+// TYPOGRAPHY ENDS
+// ========================
+
 @import "partials/header";
 @import "partials/footer";
-@import "partials/responsive";
 
-header {
-    background-color: $colourPrim;
-    height: 100px;
-    width: 100px;
-}
+// header {
+//     background-color: $colourPrim;
+//     height: 100px;
+//     width: 100px;
+// }
 
-footer {
-    @include footer(blue);
-}
+// footer {
+//     @include footer(blue);
+// }

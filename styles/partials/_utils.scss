@@ -1,7 +1,11 @@
-$colourPrim: rgb(51, 51, 51);
+// COLOURS
+$colour-prim: rgb(42, 42, 42);
+// FONTS
+$font-prim: 'Lato', sans-serif;
+$font-sec: 'Catamaran', sans-serif;
 
-@mixin footer($backgroundColor) {
-    background-color: $backgroundColor;
-    color: white;
-}
+// @mixin footer($backgroundColor) {
+//     background-color: $backgroundColor;
+//     color: white;
+// }
 

@@ -132,18 +132,70 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* Portrait tablet and small desktops */
-@media (max-width: 940px) {
-  body {
-    background: red; } }
+html {
+  font-size: 62.5%; }
 
-/* Landscape phone to portrait tablet */
-/* Landscape phones and down */
-header {
-  background-color: #333333;
-  height: 100px;
-  width: 100px; }
+body {
+  font-family: "Lato", sans-serif;
+  color: #2a2a2a; }
 
-footer {
-  background-color: blue;
-  color: white; }
+.wrapper-prim {
+  max-width: 1920px;
+  margin: 0 auto; }
+
+.wrapper-sec {
+  max-width: 1140px;
+  margin: 0 auto; }
+
+.wrapper-third {
+  max-width: 1530px; }
+
+img {
+  display: block;
+  max-width: 100%; }
+
+.header-text,
+.nav__link {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+h1.site-header {
+  font-size: 8rem; }
+
+h2.section-header {
+  font-size: 4.6rem; }
+
+h3.section-sub-header {
+  font-size: 3.2rem; }
+
+h4.event-header {
+  font-size: 2rem; }
+
+.paragraph {
+  font-family: "Catamaran", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400; }
+
+.nav {
+  color: blue; }
+  .nav__list {
+    list-style-type: none;
+    padding-left: 0; }
+  .nav__link {
+    font-size: 2rem;
+    color: #2a2a2a;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600; }
+
+.article,
+.quote {
+  font-size: 2.4rem; }
+
+.button {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2a2a2a; }

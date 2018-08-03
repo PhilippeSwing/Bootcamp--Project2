@@ -154,7 +154,10 @@ img {
   display: block;
   max-width: 100%; }
 
-.header-text,
+h1,
+h2,
+h3,
+h4,
 .nav__link {
   font-family: "Catamaran", sans-serif;
   font-weight: 700;
@@ -193,7 +196,8 @@ h4.event-header {
 .quote {
   font-size: 2.4rem; }
 
-.button {
+.button,
+.read-more {
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;

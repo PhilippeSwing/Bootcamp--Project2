@@ -1,33 +1,66 @@
 // ========================
-// SETUP
+// SETUP STARTS
 @import "partials/setup";
 // SETUP ENDS
 // ========================
 // ========================
-// UTILITIES
+// UTILITIES STARTS
 @import "partials/utils";
 // UTILITIES ENDS
 // ========================
 // ========================
-// GENERAL STYLES
+// TYPOGRAPHY STARTS
+@import "partials/typography";
+// TYPOGRAPHY ENDS
+// ========================
+// ========================
+// GENERAL STYLES STARTS
 @import "partials/general";
 // GENERAL STYLES ENDS
 // ========================
 // ========================
-// TYPOGRAPHY
-@import "partials/typography";
-// TYPOGRAPHY ENDS
+// HEADER STARTS
+@import "partials/header";
+// HEADER ENDS
+// ========================
+// ========================
+// MAIN STARTS
+// ==Welcome Section STARTS==
+@import "partials/welcome";
+// ==Welcome Section ENDS==
+// @import "partials/header";
+// MAIN ENDS
+// ========================
+// ========================
+// FOOTER STARTS
+@import "partials/footer";
+// FOOTER ENDS
+// ========================
 // ========================
 
-@import "partials/header";
-@import "partials/footer";
+// background: [background-color] [background-image] [background-position] [background-repeat] [background-attachment];
 
+.welcome-section {
+    padding: 100px 0 140px 0;
+}
 
-// header {
-//     background-color: $colourPrim;
-//     height: 100px;
-//     width: 100px;
-// }
+.welcome-container {
+    text-align: center;
+    padding: 0px 116px;
+}
+
+.welcome-header span {
+    color: rgb(40, 93, 100);
+}
+
+.article {
+    margin-top: 50px;
+    line-height: 38px;
+}
+
+.welcome-button {
+    margin-top: 75px;
+}
 
 // footer {
 //     @include footer(blue);

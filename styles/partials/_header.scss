@@ -1,0 +1,41 @@
+.header-section {
+    padding: 35px 0 440px 0;
+}
+
+.header-top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    background: rgb(79, 160, 170) url('../assets/image-1.jpeg') center no-repeat;
+    background-size: cover;
+}
+
+.header__text-container {
+    // flex: 1 0 auto;
+}
+
+.hero-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.header-bottom-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 320px;
+}
+
+.hero-text-container {
+    text-align: left;
+}
+
+.site-header {
+    line-height: 85px;
+}
+
+.hero-button {
+    margin-top: 25px;
+}

@@ -8,16 +8,20 @@ body {
 }
 
 .wrapper-prim {
+    width: 100%;
     max-width: 1920px;
     margin: 0 auto;
 }
 
 .wrapper-sec {
+    // border: 1px solid red; /* temp */
+    width: 100%;
     max-width: 1140px;
     margin: 0 auto;
 }
 
 .wrapper-third {
+    width: 100%;
     max-width: 1530px;
 }
 
@@ -27,13 +31,17 @@ img {
 }
 
 .nav {
-    color:blue;
+    // flex: 1 0 auto;
     &__list {
+        height: 100%;
         list-style-type: none;
         padding-left: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
     }
-    &___item {
-
+    &__item {
+        margin-left: 45px;
     }
     &__link {
         font-size: 2rem;
@@ -51,4 +59,11 @@ img {
     text-transform: uppercase;
     text-decoration: none;
     color: $colour-prim;
+}
+
+.button {
+    border: 1.05px solid $colour-prim;
+    border-radius: 25px;
+    padding: 12px 40px;
+    letter-spacing: 5px;
 }

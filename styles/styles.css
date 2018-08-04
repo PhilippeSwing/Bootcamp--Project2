@@ -154,6 +154,26 @@ img {
   display: block;
   max-width: 100%; }
 
+.nav {
+  color: blue; }
+  .nav__list {
+    list-style-type: none;
+    padding-left: 0; }
+  .nav__link {
+    font-size: 2rem;
+    color: #2a2a2a;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600; }
+
+.button,
+.read-more {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2a2a2a; }
+
 h1,
 h2,
 h3,
@@ -180,26 +200,6 @@ h4.event-header {
   font-size: 1.6rem;
   font-weight: 400; }
 
-.nav {
-  color: blue; }
-  .nav__list {
-    list-style-type: none;
-    padding-left: 0; }
-  .nav__link {
-    font-size: 2rem;
-    color: #2a2a2a;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 600; }
-
 .article,
 .quote {
   font-size: 2.4rem; }
-
-.button,
-.read-more {
-  font-size: 2rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #2a2a2a; }

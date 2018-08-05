@@ -25,10 +25,21 @@
 // ========================
 // ========================
 // MAIN STARTS
+// ========================
 // ==Welcome Section STARTS==
 @import "partials/welcome";
 // ==Welcome Section ENDS==
-// @import "partials/header";
+
+// ========================
+// ==Services Section STARTS==
+@import "partials/services";
+// ==Services Section ENDS==
+
+// ========================
+// ==Testimonials Section STARTS==
+
+// ==Testimonials Section ENDS==
+
 // MAIN ENDS
 // ========================
 // ========================
@@ -38,29 +49,10 @@
 // ========================
 // ========================
 
+
 // background: [background-color] [background-image] [background-position] [background-repeat] [background-attachment];
 
-.welcome-section {
-    padding: 100px 0 140px 0;
-}
 
-.welcome-container {
-    text-align: center;
-    padding: 0px 116px;
-}
-
-.welcome-header span {
-    color: rgb(40, 93, 100);
-}
-
-.article {
-    margin-top: 50px;
-    line-height: 38px;
-}
-
-.welcome-button {
-    margin-top: 75px;
-}
 
 // footer {
 //     @include footer(blue);

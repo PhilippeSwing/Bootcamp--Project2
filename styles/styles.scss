@@ -45,6 +45,11 @@
 @import "partials/samples";
 // ==Samples Section ENDS==
 
+// ========================
+// ==Clients Section STARTS==
+@import "partials/clients";
+// ==Clients Section ENDS==
+
 // MAIN ENDS
 // ========================
 // ========================
@@ -53,29 +58,8 @@
 // FOOTER ENDS
 // ========================
 // ========================
-.testimonials-section {
-    display: flex;
-    flex-direction: column;
-    padding: 100px 0 125px 0;
-}
 
-.testimonials-container {
-    margin-top: 50px;
-    align-self: flex-end;
-}
 
-.figure-image-container {
-    flex: 1 0 auto;
-}
-
-.testimonials-main {
-    display: flex;
-}
-
-.testimonial-caption {
-    margin-left: 50px;
-    padding: 140px 325px 0 0;
-}
 // background: [background-color] [background-image] [background-position] [background-repeat] [background-attachment];
 
 

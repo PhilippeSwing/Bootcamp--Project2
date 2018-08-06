@@ -1,0 +1,41 @@
+.client-section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(239, 239, 239);
+    padding: 100px 0 125px 0;
+    text-align: center;
+}
+
+.client-carriage {
+    display: flex;
+    justify-content: center;
+    &__arrow {
+        align-self: center;
+        font-size: 4.1rem;
+        color: rgb(202, 206, 207);
+        &:hover {
+            color: $colour-prim;
+        }
+    }
+    &__arrow.left {
+        margin-right: 30px;
+    }
+    &__arrow.right {
+        margin-left: 30px;
+    }
+    &__image-container {
+        margin-top: 50px;
+    }
+}
+
+.quote {
+    line-height: 38px;
+    margin: 65px 0 0 0;
+    padding: 0 130px;
+}
+
+.client-name {
+    font-size: 2.3rem;
+    font-style: italic;
+    margin: 75px 0 0 0;
+}

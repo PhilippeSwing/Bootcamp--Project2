@@ -354,6 +354,9 @@ img {
   margin-left: 50px;
   padding: 140px 325px 0 0; }
 
+.testimonial-caption__header {
+  font-weight: 600; }
+
 .samples-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -377,3 +380,46 @@ img {
   .sample-photo:hover .sample-photo__caption {
     display: block;
     background-color: rgba(0, 0, 0, 0.78); }
+
+.client-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #efefef;
+  padding: 100px 0 125px 0;
+  text-align: center; }
+
+.client-carriage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .client-carriage__arrow {
+    -ms-flex-item-align: center;
+    align-self: center;
+    font-size: 4.1rem;
+    color: #cacecf; }
+    .client-carriage__arrow:hover {
+      color: #2a2a2a; }
+  .client-carriage__arrow.left {
+    margin-right: 30px; }
+  .client-carriage__arrow.right {
+    margin-left: 30px; }
+  .client-carriage__image-container {
+    margin-top: 50px; }
+
+.quote {
+  line-height: 38px;
+  margin: 65px 0 0 0;
+  padding: 0 130px; }
+
+.client-name {
+  font-size: 2.3rem;
+  font-style: italic;
+  margin: 75px 0 0 0; }

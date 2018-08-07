@@ -50,6 +50,17 @@
 @import "partials/clients";
 // ==Clients Section ENDS==
 
+// ========================
+// ==Latest News Section STARTS==
+@import "partials/news";
+// ==Latest News Section ENDS==
+
+// ========================
+// ==Question Form STARTS==
+@import "partials/question";
+// ==Question Form ENDS==
+
+
 // MAIN ENDS
 // ========================
 // ========================
@@ -58,12 +69,6 @@
 // FOOTER ENDS
 // ========================
 // ========================
-
-// .client-carriage__arrow {
-//     align-items: center;
-// }
-
-
 // background: [background-color] [background-image] [background-position] [background-repeat] [background-attachment];
 
 
@@ -71,3 +76,8 @@
 // footer {
 //     @include footer(blue);
 // }
+
+.question-section {
+    background-color: rgb(242, 176, 148);
+    border: 1px solid red;
+}

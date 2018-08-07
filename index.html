@@ -303,12 +303,14 @@
                     <h2 class="section-header">Ask a question</h2>
                 </div>
 
-                <form action="question-submit.php" class="text-form">
-                    <label for="question-form" class="text-form__label">Submit your question</label>
-                    <input class="text-form__text-input" type="text" id="question-form" name="question-form" placeholder="Your message" required>
-                    <button type="submit" class="text-form__submit">
-                        <a href="#" class="button">send</a>
-                    </button>
+                <form action="question-submit.php" class="question-form">
+                    <label for="question-form" class="question-form__label visually-hidden">Submit your question</label>
+                    <input class="question-form__text-input" type="text" id="question-form" name="question-form" placeholder="Your message" required>
+
+                    <a href="#" class="button question-form__submit-link">
+                        <button type="submit" class="question-form__submit-button">send</button>
+                    </a>
+
                 </form>
             </div>
         </section>

@@ -136,7 +136,8 @@ h1,
 h2,
 h3,
 h4,
-.nav__link {
+.nav__link,
+input {
   font-family: "Catamaran", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -460,8 +461,44 @@ img {
 
 .question-section {
   background-color: #f2b094;
-  border: 1px solid red; }
+  padding: 85px 0 115px 0; }
 
-.question-section {
-  background-color: #f2b094;
-  border: 1px solid red; }
+.question-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 30px; }
+  .question-form__text-input {
+    background-color: transparent;
+    border: none;
+    border-top: 1px solid #2a2a2a;
+    border-bottom: 1px solid #2a2a2a;
+    font-size: 2rem;
+    text-align: center;
+    width: 90%;
+    padding: 10px 0; }
+  .question-form__submit-button {
+    background-color: transparent;
+    border: none; }
+  .question-form__submit-link {
+    margin-top: 50px; }
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden; }

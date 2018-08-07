@@ -1,4 +1,40 @@
 .question-section {
     background-color: rgb(242, 176, 148);
-    border: 1px solid red;
+    padding: 85px 0 115px 0;
+}
+
+.question-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    &__text-input {
+        background-color: transparent;
+        border: none;
+        border-top: 1px solid $colour-prim;
+        border-bottom: 1px solid $colour-prim;
+        font-size: 2rem;
+        text-align: center;
+        width: 90%;
+        padding: 10px 0;
+    }
+    &__submit-button {
+        background-color: transparent;
+        border: none;
+    }
+    &__submit-link {
+        margin-top: 50px;
+    }
+}
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }

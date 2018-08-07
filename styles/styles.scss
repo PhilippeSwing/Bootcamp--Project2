@@ -3,28 +3,35 @@
 @import "partials/setup";
 // SETUP ENDS
 // ========================
+
 // ========================
 // UTILITIES STARTS
 @import "partials/utils";
 // UTILITIES ENDS
 // ========================
+
 // ========================
 // TYPOGRAPHY STARTS
 @import "partials/typography";
 // TYPOGRAPHY ENDS
 // ========================
+
 // ========================
 // GENERAL STYLES STARTS
 @import "partials/general";
 // GENERAL STYLES ENDS
 // ========================
+
 // ========================
 // HEADER STARTS
 @import "partials/header";
 // HEADER ENDS
 // ========================
+
 // ========================
 // MAIN STARTS
+// ========================
+
 // ========================
 // ==Welcome Section STARTS==
 @import "partials/welcome";
@@ -60,15 +67,33 @@
 @import "partials/question";
 // ==Question Form ENDS==
 
+// ========================
+// ==Latest Shoots Section STARTS==
+@import "partials/latest-shoots";
+// ==Latest Shoots Section ENDS==
 
+// ========================
 // MAIN ENDS
 // ========================
+
 // ========================
 // FOOTER STARTS
-@import "partials/footer";
+// ========================
+
+// ========================
+// ==Footer Top STARTS==
+@import "partials/footer-top";
+// ==Footer Top ENDS==
+
+// ========================
+// ==Footer Bottom STARTS==
+@import "partials/footer-bottom";
+// ==Footer Bottom ENDS==
+
+// ========================
 // FOOTER ENDS
 // ========================
-// ========================
+
 // background: [background-color] [background-image] [background-position] [background-repeat] [background-attachment];
 
 

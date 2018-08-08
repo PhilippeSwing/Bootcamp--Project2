@@ -19,3 +19,27 @@
 .welcome-button {
     margin-top: 75px;
 }
+
+// ========================
+// RESPONSIVE DESIGN
+// **Portrait tablet and small desktops**
+@media (max-width: 940px) {
+    .welcome-container {
+        padding: 0px 30px;
+    }
+}
+
+// **Landscape phone to portrait tablet**
+@media (max-width: 767px) {
+    .welcome-header {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+// **Landscape phones and down**
+@media (max-width: 480px) {
+    .welcome-container {
+        padding: 0px 15px;
+    }
+}

@@ -39,11 +39,12 @@
     overflow: hidden;
 }
 
-.question-form__submit-link:hover {
+.button--red:hover {
     background-color: tomato;
+    border-color: transparent;
 }
 
-.question-form__submit-link:hover .question-form__submit-button {
+.button--red:hover .question-form__submit-button {
     color: rgb(255, 255, 255);
 }
 

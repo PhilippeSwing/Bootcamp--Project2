@@ -91,22 +91,8 @@
 // ========================
 // RESPONSIVE DESIGN
 // **Portrait tablet and small desktops**
-@media (max-width: 980px) {
-    .samples-section {
-        flex-wrap: wrap;
-    }
-
-    .sample-photo {
-        flex-basis: 50%;
-    }
-
-    // .photo-figure__image-container {
-        
-    // }
-
-    // .sample-photo img {
-
-    // }
+@media (max-width: 940px) {
+    
 }
 
 // **Landscape phone to portrait tablet**
@@ -116,7 +102,5 @@
 
 // **Landscape phones and down**
 @media (max-width: 480px) {
-    .sample-photo {
-        flex-basis: 100%;
-    }
+
 }

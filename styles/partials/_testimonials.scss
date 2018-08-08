@@ -40,7 +40,19 @@
 
 // **Landscape phone to portrait tablet**
 @media (max-width: 767px) {
+    .testimonials-main {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 30px;
+    }
 
+    .testimonial-caption {
+        margin-left: 0;
+    }
+
+    .testimonial-caption__header {
+        text-align: center;
+    }
 }
 
 // **Landscape phones and down**

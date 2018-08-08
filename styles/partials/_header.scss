@@ -86,7 +86,7 @@ label[for="toggle"] {
             color: white;
             transition: all 0.3s;
             &:hover {
-                background-color: rgb(217, 241, 255);
+                background-color: rgba(190, 200, 132, 0.9);
                 color: $colour-prim;
             }
         }

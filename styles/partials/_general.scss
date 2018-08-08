@@ -67,6 +67,16 @@ img {
     color: $colour-prim;
 }
 
+.button:hover {
+    background-color: rgba(190, 200, 132, 0.9);
+    color: rgb(255, 255, 255);
+}
+
+.button:active {
+    position: relative;
+    top: 3px;
+}
+
 .button {
     border: 1.05px solid $colour-prim;
     border-radius: 25px;

@@ -224,6 +224,14 @@ img {
   text-decoration: none;
   color: #2a2a2a; }
 
+.button:hover {
+  background-color: rgba(190, 200, 132, 0.9);
+  color: white; }
+
+.button:active {
+  position: relative;
+  top: 3px; }
+
 .button {
   border: 1.05px solid #2a2a2a;
   border-radius: 25px;
@@ -330,7 +338,7 @@ label[for="toggle"] {
       -o-transition: all 0.3s;
       transition: all 0.3s; }
       .header-top-section .nav__link:hover {
-        background-color: #d9f1ff;
+        background-color: rgba(190, 200, 132, 0.9);
         color: #2a2a2a; }
   .pages-nav,
   .demos-nav {
@@ -431,6 +439,12 @@ label[for="toggle"] {
 
 .service-item.item3 {
   margin-right: 0; }
+
+@media (max-width: 956px) {
+  .service-item {
+    margin-right: 0;
+    -ms-flex-preferred-size: 33%;
+    flex-basis: 33%; } }
 
 .testimonials-section {
   display: -webkit-box;
@@ -587,6 +601,9 @@ label[for="toggle"] {
     display: inline-block; }
     .news-snippets__read-more__icon {
       margin-left: 10px; }
+    .news-snippets__read-more:hover {
+      position: relative;
+      left: 3px; }
 
 .question-section {
   background-color: #f2b094;
@@ -631,6 +648,12 @@ label[for="toggle"] {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden; }
+
+.question-form__submit-link:hover {
+  background-color: tomato; }
+
+.question-form__submit-link:hover .question-form__submit-button {
+  color: white; }
 
 .latest-section {
   padding: 120px 0;

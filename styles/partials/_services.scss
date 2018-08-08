@@ -38,8 +38,11 @@
 // ========================
 // RESPONSIVE DESIGN
 // **Portrait tablet and small desktops**
-@media (max-width: 940px) {
-    
+@media (max-width: 956px) {
+    .service-item {
+        margin-right: 0;
+        flex-basis: 33%;
+    }
 }
 
 // **Landscape phone to portrait tablet**

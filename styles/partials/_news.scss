@@ -25,5 +25,9 @@
         &__icon {
             margin-left: 10px;
         }
+        &:hover {
+            position: relative;
+            left: 3px;
+        }
     }
 }

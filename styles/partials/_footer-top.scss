@@ -227,7 +227,7 @@
 
     .instagram-images__image-container {
         flex: 1 0 calc(25% - (60px / 8));
-        margin: 0 10px 0 0;
+        margin: 0 10px 10px 0;
         &:nth-child(4n + 4) {
             margin-right: 0px;
         }

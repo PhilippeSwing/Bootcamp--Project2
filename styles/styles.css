@@ -1120,7 +1120,7 @@ label[for="toggle"] {
     -webkit-box-flex: 1;
     -ms-flex: 1 0 calc(25% - (60px / 8));
     flex: 1 0 calc(25% - (60px / 8));
-    margin: 0 10px 0 0; }
+    margin: 0 10px 10px 0; }
     .instagram-images__image-container:nth-child(4n + 4) {
       margin-right: 0px; }
   .contact-section,

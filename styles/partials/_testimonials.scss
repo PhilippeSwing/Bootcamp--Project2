@@ -10,7 +10,7 @@
 }
 
 .figure-image-container {
-    flex: 1 0 auto;
+    flex: 1 0 33%;
 }
 
 // image height auto?
@@ -21,9 +21,13 @@
 
 .testimonial-caption {
     margin-left: 50px;
-    padding: 140px 325px 0 0;
+    flex: 1 0 calc(66% - 50px);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    // padding-top: 140px;
+    &__header {
+    font-weight: 600;
+    }
 }
 
-.testimonial-caption__header {
-    font-weight: 600;
-}

@@ -18,11 +18,13 @@ body {
     width: 100%;
     max-width: 1140px;
     margin: 0 auto;
+    padding: 0 30px;
 }
 
 .wrapper-third {
     width: 100%;
     max-width: 1530px;
+    padding-right: 30px;
 }
 
 img {
@@ -70,4 +72,8 @@ img {
     border-radius: 25px;
     padding: 12px 40px;
     letter-spacing: 5px;
+}
+
+* {
+    border: 1px solid red;
 }

@@ -93,25 +93,3 @@
 // ========================
 // FOOTER ENDS
 // ========================
-
-// background: [background-color] [background-image] [background-position] [background-repeat] [background-attachment];
-.footer-bottom {
-    background-color: $colour-prim;
-    display: flex;
-    justify-content: center;
-    &__text {
-        color: rgb(238, 237, 237);
-        text-align: center;
-        font-family: $font-sec;
-        font-size: 1.6rem;
-        font-weight: 700;
-        margin: 10px 0;
-        text-transform: uppercase;
-    }
-}
-
-
-// footer {
-//     @include footer(blue);
-// }
-

@@ -11,10 +11,12 @@
 
 .service-items__container {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .service-item {
-    flex: 1 1 calc(33.3% - 70px);
+    flex: 1 1 calc(33.3% - (70px / 3));
     margin: 50px 35px 0 0;
     padding: 0 50px;
     &__icon i {

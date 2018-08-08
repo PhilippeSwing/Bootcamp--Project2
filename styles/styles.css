@@ -839,6 +839,31 @@ label[for="toggle"] {
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
     display: none; }
+    .latest-photos__caption__text {
+      text-align: center; }
+
+@media (max-width: 767px) {
+  .latest-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .latest-list {
+    margin-right: 0; }
+  .latest-photos {
+    margin-top: 30px; } }
+
+@media (max-width: 480px) {
+  .latest-photos__photo-container {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
 
 .footer-top-section {
   display: -webkit-box;

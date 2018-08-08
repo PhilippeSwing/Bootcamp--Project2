@@ -85,6 +85,9 @@
         color: rgb(255, 255, 255);
         background-color: rgba(0, 0, 0, 0.7);
         display: none;
+        &__text {
+        text-align: center;
+        }
     }
 }
 
@@ -97,10 +100,25 @@
 
 // **Landscape phone to portrait tablet**
 @media (max-width: 767px) {
+    .latest-container {
+        flex-direction: column;
+    }
 
+    .latest-list {
+        margin-right: 0;
+    }
+
+    .latest-photos {
+        margin-top: 30px;
+    }
 }
 
 // **Landscape phones and down**
 @media (max-width: 480px) {
-
+    .latest-photos__photo-container {
+        flex-basis: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
 }

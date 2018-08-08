@@ -49,10 +49,14 @@
 
 // **Landscape phone to portrait tablet**
 @media (max-width: 767px) {
-
+    .client-quote {
+        padding: 0 30px;
+    }
 }
 
 // **Landscape phones and down**
 @media (max-width: 480px) {
-
+    .client-quote {
+        padding: 0;
+    }
 }

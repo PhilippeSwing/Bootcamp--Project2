@@ -583,6 +583,14 @@ label[for="toggle"] {
   font-style: italic;
   margin: 75px 0 0 0; }
 
+@media (max-width: 767px) {
+  .client-quote {
+    padding: 0 30px; } }
+
+@media (max-width: 480px) {
+  .client-quote {
+    padding: 0; } }
+
 .news-section {
   padding: 105px 0 110px 0; }
 

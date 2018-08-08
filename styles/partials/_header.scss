@@ -49,6 +49,11 @@
 label[for="toggle"] {
     display: none;
 }
+
+.button--lightblue:hover {
+    background-color: RGB(215, 251, 250);
+    color: $colour-prim;
+}
 // ========================
 // RESPONSIVE DESIGN
 // **Portrait tablet and small desktops**
@@ -117,6 +122,10 @@ label[for="toggle"] {
 
 // **Landscape phones and down**
 @media (max-width: 480px) {
+    h1.site-header {
+        font-size: 7rem;
+    }
+    
     .hero-text-container {
         padding: 0;
         align-items: center;

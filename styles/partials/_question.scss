@@ -17,6 +17,7 @@
         text-align: center;
         width: 90%;
         padding: 10px 0;
+        color: $colour-prim;
     }
     &__submit-button {
         background-color: transparent;
@@ -41,7 +42,6 @@
 
 .button--red:hover {
     background-color: tomato;
-    border-color: transparent;
 }
 
 .button--red:hover .question-form__submit-button {

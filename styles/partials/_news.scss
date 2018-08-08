@@ -24,10 +24,11 @@
         display: inline-block;
         &__icon {
             margin-left: 10px;
+            transition: all 0.3s;
         }
-        &:hover {
+        &:hover i {
             position: relative;
-            left: 3px;
+            left: 5px;
         }
     }
 }

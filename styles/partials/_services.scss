@@ -35,6 +35,14 @@
     margin-right: 0;
 }
 
+.service-item__icon i {
+    transition: all .5s;
+}
+
+.service-item__icon i:hover {
+    transform: rotateZ(360deg); 
+}
+
 // ========================
 // RESPONSIVE DESIGN
 // **Portrait tablet and small desktops**

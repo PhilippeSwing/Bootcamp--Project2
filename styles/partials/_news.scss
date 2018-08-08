@@ -41,10 +41,34 @@
 
 // **Landscape phone to portrait tablet**
 @media (max-width: 767px) {
-
+    .news-snippets {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        &__caption {
+            align-self: center;
+        }
+        &__snippet:nth-child(1) {
+            flex: 0 0 calc(50% - 15px)
+        }
+        &__snippet:nth-child(2) {
+            flex: 0 0 calc(50% - 15px);
+            margin-right: 0;
+        }
+        &__snippet:nth-child(3) {
+            flex: 0 1 50%;
+            margin-top: 30px;
+        }
+    }
 }
 
 // **Landscape phones and down**
 @media (max-width: 480px) {
-
+    .news-snippets {
+        &__snippet:nth-child(n + 1) {
+            flex: 1 0 100%;
+            margin: 30px 0 0 0;
+            align-items: center;
+        }
+    }
 }

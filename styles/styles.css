@@ -628,6 +628,42 @@ label[for="toggle"] {
       position: relative;
       left: 3px; }
 
+@media (max-width: 767px) {
+  .news-snippets {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center; }
+    .news-snippets__caption {
+      -ms-flex-item-align: center;
+      align-self: center; }
+    .news-snippets__snippet:nth-child(1) {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 calc(50% - 15px);
+      flex: 0 0 calc(50% - 15px); }
+    .news-snippets__snippet:nth-child(2) {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 calc(50% - 15px);
+      flex: 0 0 calc(50% - 15px);
+      margin-right: 0; }
+    .news-snippets__snippet:nth-child(3) {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+      flex: 0 1 50%;
+      margin-top: 30px; } }
+
+@media (max-width: 480px) {
+  .news-snippets__snippet:nth-child(n + 1) {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 100%;
+    flex: 1 0 100%;
+    margin: 30px 0 0 0;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; } }
+
 .question-section {
   background-color: #f2b094;
   padding: 85px 0 115px 0; }

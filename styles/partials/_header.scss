@@ -27,7 +27,7 @@
 .header-bottom-container {
     display: flex;
     justify-content: flex-end;
-    margin-top: 320px;
+    margin-top: 200px;
 }
 
 .hero-text-container {
@@ -49,15 +49,14 @@
 label[for="toggle"] {
     display: none;
 }
-
-.button--lightblue:hover {
-    background-color: RGB(215, 251, 250);
-    color: $colour-prim;
-}
 // ========================
 // RESPONSIVE DESIGN
 // **Portrait tablet and small desktops**
 @media (max-width: 940px) {
+    .hero {
+        background-position: right;
+    }
+
     .header-section {
         position: relative;  
     }
@@ -88,7 +87,8 @@ label[for="toggle"] {
             display: block;
             font-size: 40px;
             padding: 15px;
-            color: white;
+            color: rgb(255, 255, 255);
+            background-color: rgba(42, 42, 42, 0.9);
             transition: all 0.3s;
             &:hover {
                 background-color: rgba(190, 200, 132, 0.9);
@@ -117,7 +117,10 @@ label[for="toggle"] {
 }
 // **Landscape phone to portrait tablet**
 @media (max-width: 767px) {
-
+    .header-top-section .nav__link:hover {
+        background-color: rgba(42, 42, 42, 0.9);
+        color: rgb(255, 255, 255);
+    }
 }
 
 // **Landscape phones and down**

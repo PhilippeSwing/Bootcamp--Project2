@@ -36,7 +36,6 @@ img {
 }
 
 .nav {
-    // flex: 1 0 auto;
     &__list {
         height: 100%;
         list-style-type: none;
@@ -54,6 +53,10 @@ img {
         text-transform: uppercase;
         text-decoration: none;
         font-weight: 600;
+        // transition: all 0.3s;
+        &:hover {
+            border-bottom: 2px solid $colour-prim;
+        }
     }
 }
 
@@ -67,7 +70,7 @@ img {
 }
 
 .button:hover {
-    background-color: rgba(190, 200, 132, 0.9);
+    background-color: rgb(40, 93, 100);
     color: rgb(255, 255, 255);
 }
 
@@ -81,4 +84,13 @@ img {
     border-radius: 25px;
     padding: 12px 40px;
     letter-spacing: 5px;
+    transition: all 0.1s;
+}
+
+// **Landscape phone to portrait tablet**
+@media (max-width: 767px) {
+    .button:hover {
+        background-color: transparent;
+        color: $colour-prim;
+    }
 }

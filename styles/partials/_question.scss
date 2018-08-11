@@ -40,9 +40,9 @@
     overflow: hidden;
 }
 
-.button--red:hover {
-    background-color: tomato;
-}
+// .button--red:hover {
+//     background-color: tomato;
+// }
 
 .button--red:hover .question-form__submit-button {
     color: rgb(255, 255, 255);
@@ -57,7 +57,9 @@
 
 // **Landscape phone to portrait tablet**
 @media (max-width: 767px) {
-
+    .button--red:hover .question-form__submit-button {
+    color: $colour-prim;
+}
 }
 
 // **Landscape phones and down**

@@ -63,13 +63,21 @@
 
 }
 
-.service-item.item1 .fa-camera:hover ~ .fa-image {
-    transform: translateY(20px) rotateZ(90deg);
+@keyframes camera {
+    0% {
+        transform: rotateZ(90deg);
+    }   
+    50% {
+        transform: translateY(25px) rotateZ(90deg);
+    }
+    100% {
+        transform: translateY(0) rotateZ(90deg);
+    }
 }
 
-
-
-
+.service-item.item1 .fa-camera:hover ~ .fa-image {
+    animation: camera 1s linear;
+}
 
 .service-item.item1 i {
     position: absolute;
@@ -92,7 +100,6 @@
 }
 
 .fa-heart:hover {
-    // position: relative;
     animation: heart 1s cubic-bezier(.07,1.21,.52,.87) infinite;
 }
 

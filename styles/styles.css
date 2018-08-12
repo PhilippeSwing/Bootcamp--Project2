@@ -586,10 +586,31 @@ label[for="toggle"] {
   -ms-transform: rotate(90deg);
   transform: rotateZ(90deg); }
 
+@-webkit-keyframes camera {
+  0% {
+    -webkit-transform: rotateZ(90deg);
+    transform: rotateZ(90deg); }
+  50% {
+    -webkit-transform: translateY(25px) rotateZ(90deg);
+    transform: translateY(25px) rotateZ(90deg); }
+  100% {
+    -webkit-transform: translateY(0) rotateZ(90deg);
+    transform: translateY(0) rotateZ(90deg); } }
+
+@keyframes camera {
+  0% {
+    -webkit-transform: rotateZ(90deg);
+    transform: rotateZ(90deg); }
+  50% {
+    -webkit-transform: translateY(25px) rotateZ(90deg);
+    transform: translateY(25px) rotateZ(90deg); }
+  100% {
+    -webkit-transform: translateY(0) rotateZ(90deg);
+    transform: translateY(0) rotateZ(90deg); } }
+
 .service-item.item1 .fa-camera:hover ~ .fa-image {
-  -webkit-transform: translateY(20px) rotateZ(90deg);
-  -ms-transform: translateY(20px) rotate(90deg);
-  transform: translateY(20px) rotateZ(90deg); }
+  -webkit-animation: camera 1s linear;
+  animation: camera 1s linear; }
 
 .service-item.item1 i {
   position: absolute; }

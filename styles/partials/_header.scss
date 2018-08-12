@@ -49,6 +49,72 @@
 label[for="toggle"] {
     display: none;
 }
+
+// On Page Load Animation
+@keyframes photography {
+    0% {
+        transform: translate(500%, 400%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.header-text {
+    animation: photography 3s ease-out;
+}
+
+@keyframes header-nav {
+    0% {
+        transform: translate(-250%, 600%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.header-nav {
+    animation: header-nav 3s ease-out;
+}
+
+@keyframes welcome {
+    0% {
+        transform: translate(-100%, 400%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.site-header {
+    animation: welcome 3s ease-out;
+}
+
+@keyframes event-header {
+    0% {
+        transform: translate(200%, 200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.event-header {
+    animation: event-header 3s ease-out;
+}
+
+@keyframes hero-button {
+    0% {
+        transform: translate(50%, -2000%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.hero-button {
+    animation: hero-button 3s ease-out;
+}
 // ========================
 // RESPONSIVE DESIGN
 // **Portrait tablet and small desktops**

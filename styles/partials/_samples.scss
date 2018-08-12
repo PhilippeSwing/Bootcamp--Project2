@@ -15,6 +15,7 @@
     left: 0;
     align-items: center;
     display: none;
+    transition: all 0.3s;
     &__paragraph {
         width: 50%;
     }
@@ -26,7 +27,6 @@
         justify-content: center;  
     }
 }
-
 // ========================
 // RESPONSIVE DESIGN
 // **Portrait tablet and small desktops**

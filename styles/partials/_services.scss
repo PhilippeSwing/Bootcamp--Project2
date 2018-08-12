@@ -75,6 +75,52 @@
     position: absolute;
 }
 
+@keyframes heart {
+    0% {
+        transform: scale(1);
+    }   
+    50%, 60% {
+        transform: scale(1.4);
+    }
+    80% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.4);
+    }
+}
+
+.fa-heart:hover {
+    // position: relative;
+    animation: heart 1s cubic-bezier(.07,1.21,.52,.87) infinite;
+}
+
+@keyframes leaf {
+    0% {
+        
+    }
+
+    15% {
+        transform: translateY(-100px);
+    }
+    40% {
+        transform: rotateZ(-30deg) translateY(-80px);
+    }
+    70% {
+        transform: rotateZ(40deg) translateY(-50px);
+    }
+    85% {
+        transform: rotateZ(-30deg) translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px) rotateZ(0deg);
+    }
+}
+
+.fa-leaf:hover {
+    animation: leaf 3.5s ease-out infinite;
+}
 // ========================
 // RESPONSIVE DESIGN
 // **Portrait tablet and small desktops**

@@ -18,6 +18,11 @@
         width: 90%;
         padding: 10px 0;
         color: $colour-prim;
+        &:hover {
+            border-top: 2px solid $colour-prim;
+            border-bottom: 2px solid $colour-prim;
+            padding: 9px 0;
+        }
     }
     &__submit-button {
         background-color: transparent;

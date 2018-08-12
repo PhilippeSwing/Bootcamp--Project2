@@ -8,6 +8,7 @@
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.10/css/all.css' integrity='sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg'
         crossorigin='anonymous'>
     <link href="https://fonts.googleapis.com/css?family=Catamaran:600,700|Lato:400,400i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.2/flickity.min.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Photography</title>
 </head>
@@ -31,7 +32,7 @@
 
                     <input type="checkbox" id="toggle" name="toggle" class="nav-checkbox">
 
-                    <nav class="nav">
+                    <nav class="nav header-nav">
                         <ul class="nav__list">
                             <li class="nav__item">
                                 <a href="#" class="nav__link">Home</a>
@@ -234,26 +235,27 @@
 
                     </a> -->
 
-                    <label for="clients-toggle" class="client-carriage__client-arrow client-carriage__arrow left">
+                    <!-- <label for="clients-toggle" class="client-carriage__client-arrow client-carriage__arrow left">
                         <i class="fas fa-chevron-left client-carriage__arrow__icon left" title="Scroll left to the next client quote."></i>
                     </label>
 
-                    <input type="checkbox" id="clients-toggle" name="clients-toggle" class="client-checkbox left">
+                    <input type="checkbox" id="clients-toggle" name="clients-toggle" class="client-checkbox left"> -->
 
                     <div class="client-carriage__image-container">
-                        <img src="./assets/image-7.jpeg" alt="Close-up of a woman with long brown hair resting her right hand on her cheek." class="client-carriage__image1">
+                        <div class="carousel-image1 carousel-cell">
+                            <img src="./assets/image-7.jpeg" alt="Close-up of a woman with long brown hair resting her right hand on her cheek." class="carousel-image">
+                        </div>
 
+                        <div class="carousel-image2 carousel-cell">
+                            <img src="./assets/image-7.jpeg" alt="Close-up of a woman with long brown hair resting her right hand on her cheek." class="carousel-image">
+                        </div>
                     </div>
 
-                    <!-- <a href="#" class="client-carriage__arrow right">
-                        <i class="fas fa-chevron-right client-carriage__arrow__icon right" title="Scroll left to the next client quote."></i>
-                    </a> -->
-
-                    <label for="clients-toggle" class="client-carriage__client-arrow client-carriage__arrow right">
+                    <!-- <label for="clients-toggle" class="client-carriage__client-arrow client-carriage__arrow right">
                         <i class="fas fa-chevron-right client-carriage__arrow__icon right" title="Scroll right to the next client quote."></i>
                     </label>
 
-                    <input type="checkbox" id="clients-toggle" name="clients-toggle" class="client-checkbox right">
+                    <input type="checkbox" id="clients-toggle" name="clients-toggle" class="client-checkbox right"> -->
                 </div>
 
                 <blockquote class="client-quote quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultricies, leo gravida la cinia aliquet, augue
@@ -571,6 +573,10 @@
         <!-- ==Footer Bottom ENDS== -->
     </footer>
     <!-- FOOTER ENDS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.2/flickity.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
+    <script src="./scripts/scripts.js"></script>
 </body>
 
 </html>

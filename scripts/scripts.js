@@ -3,7 +3,8 @@ $(document).ready(function () {
         autoPlay: false,
         pauseAutoPlayOnHover: false,
         lazyLoad: true,
-        freeScroll: false,
+        freeScroll: true,
+        wrapAround: true,
         prevNextButtons: true,
         pageDots: false,
         accessibility: true

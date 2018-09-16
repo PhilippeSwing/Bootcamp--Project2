@@ -66,7 +66,7 @@ label[for="toggle"] {
 
 @keyframes header-nav {
     0% {
-        transform: translate(-250%, 600%);
+        transform: translate(250%, 600%);
     }
     100% {
         transform: translateX(0);
@@ -180,6 +180,19 @@ label[for="toggle"] {
         color: $colour-prim;
         font-size: 30px;
     }
+
+//     @keyframes header-nav {
+//     0% {
+//         transform: translate(-250%, 600%);
+//     }
+//     100% {
+//         transform: translateX(0);
+//     }
+// }
+
+    // .header-nav {
+    //     transition: none;
+    // }
 }
 // **Landscape phone to portrait tablet**
 @media (max-width: 767px) {

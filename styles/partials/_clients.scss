@@ -4,39 +4,39 @@
     background-color: rgb(239, 239, 239);
     padding: 100px 0 125px 0;
     text-align: center;
-}
-
-.client-carriage {
-    display: flex;
-    justify-content: center;
-    &__client-arrow {
-        align-self: center;
-        font-size: 4.1rem;
-        color: rgb(202, 206, 207);
-        &:hover {
-            color: $colour-prim;
-        }
-    }
-    &__arrow.left {
-        margin-right: 30px;
-        margin-top: 40px;
-    }
-    &__arrow.right {
-        margin-left: 30px;
-        margin-top: 40px;
-    }
-    &__image-container {
-        margin-top: 50px;
+    h2 {
+        margin-bottom: 50px;
     }
 }
 
-.client-checkbox {
-    display: none;
+.client-carriage__image-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.flickity-button {
+    font-size: 4.1rem;
+    color: rgb(202, 206, 207);
+    background-color: transparent;
+    &:hover {
+        color: $colour-prim;
+        background-color: transparent;
+    }
+}
+
+.previous {
+    margin-right: 30px;
+    margin-top: 80px;
+}
+
+.next {
+    margin-left: 30px;
+    margin-top: 80px;
 }
 
 .quote {
     line-height: 38px;
-    margin: 65px 0 0 0;
+    margin: 0;
     padding: 0 130px;
 }
 
@@ -46,59 +46,43 @@
     margin: 75px 0 0 0;
 }
 
-.client-carriage__image-container {
-    display: flex;
-    height: 500px;
-    width: 500px;
-}
-
-.client-carriage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
 .carousel-cell {
     width: 66%;
     height: 400px;
 }
 
 .carousel-image {
-    max-height: 100%;
+    // max-height: 100%;
     margin: 0 auto;
-    max-width: 100%;
+    width: 100%;
 }
-
-// .carousel {
-//     height: 600px;
-// 	width: 100%;
-// 	margin: 0 auto;
-// 	overflow: hidden;
-// }
-
-// .carousel-image1 {
-//     background-image: url(../assets/image-7.jpeg);
-//     background-size: cover;
-//     background-repeat: no-repeat;
-// 	background-position: center;
-// }
-
-// .carousel-image2 {
-//     background-image: url(../assets/image-7.jpeg);
-//     background-size: cover;
-//     background-repeat: no-repeat;
-// 	background-position: center;
-// }
-
-// .carousel-image1,
-// .carousel-image2 {
-//     min-height: auto;
-// }
 // ========================
 // RESPONSIVE DESIGN
 // **Portrait tablet and small desktops**
 @media (max-width: 940px) {
+    .client-carriage__image-container {
+        width: 75%;
+    }
+
+    .previous {
+        margin-top: 130px;
+    }
+
+    .next {
+        margin-top: 130px;
+    }
+    
+}
+
+// **Portrait tablet and small desktops**
+@media (max-width: 820px) {
+    .previous {
+        margin-top: 100px;
+    }
+
+    .next {
+        margin-top: 100px;
+    }
     
 }
 
@@ -107,11 +91,38 @@
     .client-quote {
         padding: 0 30px;
     }
+
+    .previous {
+        margin-top: 90px;
+    }
+
+    .next {
+        margin-top: 90px;
+    }
+}
+
+// **Landscape phone to portrait tablet**
+@media (max-width: 600px) {
+    .previous {
+        margin-top: 10px;
+    }
+
+    .next {
+        margin-top: 10px;
+    }
 }
 
 // **Landscape phones and down**
 @media (max-width: 480px) {
     .client-quote {
         padding: 0;
+    }
+
+    .previous {
+        margin-top: -20px;
+    }
+
+    .next {
+        margin-top: -20px;
     }
 }
